@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/00f6de6bde.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="theme">
+        <span id="toggler">
+        <span class="theme-text">Light Mode</span>
+        <img class="theme-icon" src="sun.png" alt="">
+        </span>
+        <label class="switch">
+            <input type="checkbox" id="toggle-button">
+            <span class="slider round"></span>
+            
+        </label>
+    </div>
+    <!-- NAVBAR -->
+    <nav id="Navbar">
+        <a class="nav-item" href="#Home">Home</a>
+        <a class="nav-item" href="#Projects">Projects</a>
+        <a class="nav-item" href="#Buttons">Buttons</a>
+        <a class="nav-item" href="#Contact">Contact</a>
+
+    </nav>
+
+    <!-- HOME  -->
+    <section id="Home">
+        <div class="container">
+            <h1 class="heading">
+                Dark Mode || Light Mode
+            </h1>
+            <h2 class="sub-heading">Hello and Welcome to my Website!</h2>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="Projects">
+        <div class="container">
+            <h1 class="heading">
+                --- My Skills ---
+            </h1>
+            <div class="illustrations">
+                <div class="image-card">
+                    <h2>Web Development</h2>
+                    <img id='image1' class="about-img" src="WebDevLight.svg" alt="">
+                </div>
+                <div class="image-card">
+                    <h2>Logo Design</h2>
+                    <img id='image2' class="about-img" src="LogoDesignLight.svg" alt="">
+                </div>
+                <div class="image-card">
+                    <h2>Content Writing</h2>
+                    <img id='image3' class="about-img" src="ContentCreatorLight.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Buttons -->
+    <section id="Buttons">
+        <div class="container">
+            <h1 class="heading">
+                Theme Buttons
+            </h1>
+            <div class="buttons">
+                <button class="btn button-primary">Primary</button>
+                <button class="btn button-secondary">Secondary</button>
+                <button class="btn button-primary button-disabled" disabled>Disabled</button>
+                <button class="btn button-outline">Outline</button>
+                <button class="btn button-alt-outline button-outline">Alt Outline</button>
+                <button class="btn button-outline button-disabled" disabled>Disabled</button>
+            </div>
+            <div class="project-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur unde qui, amet nulla dolores ex? Eum tenetur ex perspiciatis doloribus quod illo obcaecati? At, expedita possimus quidem, voluptas quas architecto culpa, provident quis
+                vero ut quae odit dolore libero obcaecati!</div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="Contact">
+        <div class="container">
+
+            <div class="contant-icons">
+                <i class="fa-brands fa-github icon"></i>
+                <i class="fa-brands icon fa-linkedin-in"></i>
+                <i class="fa-brands icon fa-facebook"></i>
+                <i class="fa-brands icon fa-instagram"></i>
+                <i class="fa-brands icon fa-google-plus-g"></i>
+                <i class="fa-brands icon fa-whatsapp"></i>
+            </div>
+            <br>
+            <h2 class="sub-heading">Thats All Folks</h2>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
